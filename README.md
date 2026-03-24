@@ -6,11 +6,8 @@
 
   | Skill | Triggers on |
   |-------|-------------|
-  | **go-standards** | Writing, reviewing, or designing Go code. Zero-tolerance quality gates
-  covering naming, error handling, interfaces, composition, testing, and architecture. |
-  | **linux-systems** | Container/Linux environments: missing binaries, PATH issues in
-  subagent shells, package installation decisions, `/etc` config changes, repetitive shell
-  commands. |
+  | **go-standards** | Writing, reviewing, or designing Go code. Zero-tolerance quality gates covering naming, error handling, interfaces, composition, testing, and architecture. |
+  | **linux-systems** | Container/Linux environments: missing binaries, PATH issues in subagent shells, package installation decisions, `/etc` config changes, repetitive shell commands. |
 
   ## Installation
 
