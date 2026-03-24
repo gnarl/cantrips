@@ -14,7 +14,9 @@
   Clone into your Claude Code skills directory:
 
   ```bash
-  git clone https://github.com/nug/cantrips.git ~/.claude/skills/cantrips
+  git clone https://github.com/gnarl/cantrips.git /tmp/cantrips \
+      && cp -r /tmp/cantrips/skills/* ~/.claude/skills/ \
+      && rm -rf /tmp/cantrips 
 
   Or in a Dockerfile:
 
