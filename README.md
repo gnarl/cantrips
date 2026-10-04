@@ -8,6 +8,7 @@
   |-------|-------------|
   | **go-standards** | Writing, reviewing, or designing Go code.|
   | **linux-systems** | Managing Linux environments. |
+  | **project-planning** | Using a PLAN.md to track project planning.|
 
   ## Installation
 
@@ -24,18 +25,4 @@
       && cp -r /tmp/cantrips/skills/* /home/coder/.claude/skills/ \
       && rm -rf /tmp/cantrips
 
-  Structure
 
-  skills/
-  ├── go-standards/
-  │   ├── SKILL.md
-  │   ├── CODE_RULES.md
-  │   ├── ARCH_RULES.md
-  │   ├── TEST_RULES.md
-  │   └── PATTERNS_REF.md
-  └── linux-systems/
-      ├── SKILL.md
-      ├── shell-environments.md
-      ├── package-management.md
-      ├── system-config.md
-      └── build-automation.md
